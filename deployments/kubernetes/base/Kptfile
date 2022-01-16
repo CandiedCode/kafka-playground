@@ -1,0 +1,8 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: base
+packageMetadata:
+  tags:
+  - kpt.dev/app=kafka
+  shortDescription: kafka playground
